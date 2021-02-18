@@ -20,6 +20,6 @@ Usage
 To Start expo run this line
 expo start
 
-Author 
+Team Profile
 Vedant Pandey
 Lakshya Soni
