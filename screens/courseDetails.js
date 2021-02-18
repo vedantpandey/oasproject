@@ -18,6 +18,7 @@ export default function CourseDetails({ navigation }) {
     return (
         <View style={globalStyles.container}>
             <Text>{ navigation.getParam('name') }</Text>
+            <Text>Assignment List</Text>
             <FlatList 
                 data={assignmentList}
                 renderItem={({ item }) => (

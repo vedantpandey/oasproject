@@ -8,6 +8,7 @@ export default function AssignmentDetails({ navigation }) {
     return (
         <View style={globalStyles.container}>
             <Text>{ navigation.getParam('name') }</Text>
+            <Text>Deadline - </Text>
         </View>
     );
 }
